@@ -40,6 +40,10 @@
   position:sticky;
   top:0;
   background-color:white;
+  z-index: 20;
+}
+.navlink span {
+  color: #fc6060;
 }
 
 /*MARGIN adjustments to the main parts*/
@@ -86,7 +90,10 @@ body{
   font-size:24px;
 }
 iframe{
-  margin-left:29%;
+  width: 40%;
+  height: 40vh;
+  position: relative;
+  left: 28%;
 }
 
 /*For the ATTRACTION page*/
@@ -115,25 +122,22 @@ iframe{
 }
 
 /*For the IT Page*/
-#itrow1{
-  display:flex;
-  flex-direction:row;
+.it__container {
+  display: flex;
   justify-content:center;
-}
-#itrow2{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
+  align-self: center;
+  flex-wrap: wrap;
 }
 .hidden{
   font-size:0;
+  display: none;
 }
 .card1{
   box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
   transition:0.3s;
   width:20%;
   border-radius:20px;
-  margin:20px;
+  margin: 3% 5%;
 }
 .itimg{
   border-radius:10px 10px 0 0;
@@ -179,6 +183,9 @@ form input {
 }
 textarea {
   margin-bottom: 2%;
+  width:500px; 
+  height:100px; 
+  padding-bottom: 10px;
 }
 form button {
   height: 60px;
@@ -222,4 +229,75 @@ footer{
 }
 .wrapper{
     text-align:center;
+}
+
+
+
+
+
+
+@media (max-width: 750px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    flex-direction: column;
+    top: 0;
+  }
+  .navul {
+    margin-top: 0;
+  }
+
+  #herotext{
+    font-size: 36px;
+  }
+  h2 {
+    margin: 4% 0 4% 0;
+    text-align: center;
+  }
+  .desctext {
+    margin: 0 4% 8% 4%;
+    text-align: center;
+  }
+  iframe {
+    width: 90%;
+    left: 5%; 
+  }
+
+  .admifee{
+    margin: 0 0 0 4%;
+  }
+  .attrul{
+    margin: 0;
+  }
+  .attrimg{
+    width: 100%;
+    margin: 0 0 4% 0;
+    position: relative;
+    float:left;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .attrimg2{
+    width: 100%;
+    margin: 0 0 4% 0;
+    position: relative;
+    float:right;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+ .card1 {
+   width: 70%;
+ }
+
+ #contactForm{
+  margin: 0 2% 0 2%;
+  padding: 20px 30px;
+}
+textarea {
+  margin-bottom: 2%;
+  width: 100%; 
+  height:100px; 
+  padding-bottom: 10px;
+}
 }
