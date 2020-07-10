@@ -1,0 +1,208 @@
+/*The code here is for the decoration of the NAVIGATION bar*/
+.navul{
+  list-style-type:none;
+  text-align:center;
+  margin-top:27px;
+  padding-left:0;
+}
+.navli{
+  display:inline;
+  margin:10px;
+}
+.navlink:link{
+  text-decoration:none;
+  font-size:200%;
+  font-family:candara;
+  color:black;
+}
+.navlink:visited{
+  color:black;
+}
+.navlink:hover{
+  color:#fc6060;
+  text-decoration:underline;
+}
+#navbar{
+  background-color:white;
+  position:sticky; 
+  top:0;
+}
+.title{
+  margin-left:1%;
+  font-family:"mv-boli";
+  color:#fc6060;
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  margin-right:0;
+  flex-direction:row;
+  position:sticky;
+  top:0;
+  background-color:white;
+}
+
+/*MARGIN adjustments to the main parts*/
+h2{
+  margin-left:300px;
+  margin-right:300px;
+  font-family:candara;
+  text-decoration:underline;
+}
+.attrul{
+  margin-left:300px;
+  margin-right:300px;
+  font-family:"calibri-light";
+}
+#contactForm{
+  margin-left:300px;
+  margin-right:300px;
+}
+body{
+  margin:0;
+}
+
+/*For the HOME page*/
+#hero{
+  background-image: url(https://res.cloudinary.com/dvhfaf6mp/image/upload/v1579143540/Tokyo-Banner_kj1plg.jpg);
+  background-size: cover;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+#herotext{
+  text-align:center;
+  color:white;
+  font-size:48px;
+  font-family:arial;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+}
+.desctext{
+  text-indent:20px;
+  margin-left:300px;
+  margin-right:300px;
+  font-family:"calibri-light";
+  font-size:24px;
+}
+iframe{
+  margin-left:29%;
+}
+
+/*For the ATTRACTION page*/
+.admifee{
+  margin-left:340px;
+  margin-right:300px;
+}
+.attrimg{
+  width:480px;
+  Height:240px;
+  margin-right:10px;
+  margin-left:300px;
+  float:left;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.attrimg2{
+  width:480px;
+  Height:240px;
+  margin-left:10px;
+  margin-right:300px;
+  float:right;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/*For the IT Page*/
+#itrow1{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+#itrow2{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.hidden{
+  font-size:0;
+}
+.card1{
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  transition:0.3s;
+  width:20%;
+  border-radius:20px;
+  margin:20px;
+}
+.itimg{
+  border-radius:10px 10px 0 0;
+}
+.ittext{
+  padding:2px 16px;
+  font-family:"calibri-light";
+}
+.itdesc{
+  text-align:center;
+}
+.itlink:link{
+  text-decoration:underline;
+  color:black;
+}
+.itlink:visited{
+  color:black;
+}
+.itlink:hover{
+  color:#fc6060;
+}
+
+/*Adjustments for the CONTACT page*/
+.contactbanner{
+  height:250px;
+  width:100%;
+}
+form{
+  border:3px solid #fc6060;
+  border-radius:10px;
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+label{
+  font-family:"calibri-light";
+}
+
+/*The adjustments for the FOOTER*/
+footer{
+  font-family:"calibri-light";
+  background-color:#2e2a2a;
+  bottom:0;
+  width:100%;
+  margin-top:30px;
+  height:180px;
+  padding-top:20px;
+}
+.footertext{
+  font-size:14px;
+  color:white;
+}
+.footertitle{
+  font-family:"mv-boli";
+  font-size:20px;
+  color:#fc6060;
+}
+.footerul{
+  list-style-type:none;
+}
+.footerlink:link{
+  text-decoration:none;
+  font-size:14px;
+  color:white;
+}
+.footerlink:visited{
+  color:white;
+}
+.footerlink:hover{
+  color:#fc6060;
+}
+.wrapper{
+    text-align:center;
+}
