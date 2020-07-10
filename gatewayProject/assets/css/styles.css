@@ -57,6 +57,7 @@ h2{
 #contactForm{
   margin-left:300px;
   margin-right:300px;
+  padding: 20px 60px;
 }
 body{
   margin:0;
@@ -166,11 +167,23 @@ form{
   box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
   display:flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  height: 40vh;
 }
 label{
   font-family:"calibri-light";
+}
+form input {
+  margin-bottom: 2%;
+  height: 60px;
+}
+textarea {
+  margin-bottom: 2%;
+}
+form button {
+  height: 60px;
+  width: 120px;
+  cursor: pointer;
 }
 
 /*The adjustments for the FOOTER*/
@@ -182,6 +195,7 @@ footer{
   margin-top:30px;
   height:180px;
   padding-top:20px;
+  padding-bottom: 10px;
 }
 .footertext{
   font-size:14px;
